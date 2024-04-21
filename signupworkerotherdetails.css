@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: grey;
+    background-color:grey;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,11 +11,13 @@ body {
 .container {
     width: 70%;
     padding: 10px;
-    background-color: white;
+    background-color:white ;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 50px;
+    margin-top:50px;
+    
+    
 }
 
 h2 {
@@ -25,22 +27,18 @@ h2 {
 
 .form-group {
     margin-bottom: 15px;
-    width: auto;
+    width:auto;
     display: inline-block;
-    margin-right: 100px;
+    margin-right:100px;
     margin-left: 100px;
 }
-
-.forn-group {
+.forn-group
+{
     margin-bottom: 15px;
-    width: auto;
+    width:auto;
     display: inline-block;
+    
     margin-left: 103px;
-}
-
-.b {
-    margin-right: 120px;
-    display: inline-block;
 }
 
 label {
@@ -51,8 +49,7 @@ label {
 input[type="text"],
 input[type="number"],
 input[type="email"],
-textarea,
-input[type="date"] {
+textarea {
     width: 90%;
     padding: 10px;
     margin: 5px;
@@ -73,4 +70,10 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+.b
+{
+margin-right:120px;
+
+display: inline-block;
 }
